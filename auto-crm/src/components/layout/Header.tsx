@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { MobileNav } from "./MobileNav";
 import { ThemeToggle } from "@/components/dashboard/ThemeToggle";
+import { BusinessSwitcher } from "./BusinessSwitcher";
 
 export function Header() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -36,6 +37,7 @@ export function Header() {
         </div>
       </div>
 
+      <BusinessSwitcher />
       <ThemeToggle />
       <Button variant="ghost" size="icon" className="relative cursor-pointer">
         <Bell className="h-5 w-5" />
