@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": "1145191446124291",
+      "name": "Farmacologia deportiva",
+      "verification_status": "not_verified"
+    },
+    {
+      "id": "1117652308093182",
+      "name": "Glass Soler",
+      "verification_status": "not_verified"
+    },
+    {
+      "id": "1106361001133983",
+      "name": "Inversiones Soler",
+      "verification_status": "not_verified"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIU0NBb0R6WEQzMjZAWbmlfTmRKZAU93RDRJbFczbVlZASXFpNzJldVFuR2JUaF9HZAU55aGR6OXBNUVVqYy1oN3haVl9nMmpnQzV2YTdTWUc4NFBPcTBHRGt3",
+      "after": "QVFIU0lvcXhBY3lzTjlibXI4ZAUZACYnRWVGVZAU0syaHNlS3l4QzkxRndJNVFFS1ZAnVnRHTVY2NU9TUTdtR0NkMDJxblpDSHBNN24teXU2ZA212aEJmMFVkb0xR"
+    }
+  }
+}

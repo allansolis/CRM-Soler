@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": "860529027138846",
+      "name": "Glass Soler",
+      "access_token": "EAFt4sGcAOb4BRUXe8SKadOi7JKWvn5PwOZAwlXPgGAMJt9K3SUF9ofRZAt6eNFKzggvhtXwTYWyqtoppYZBccpDBiCAZAsZCDj2u4WqYkPmRL6CJrSiidL7Q98jNc6yr1ff5ruIJVaUCbo7lGxLzkdt87vzftFs4SErnTPobmWi3ipPL491RhAwObMlgcO6QjAP7Y",
+      "category": "Automóviles",
+      "tasks": [
+        "ADVERTISE",
+        "ANALYZE",
+        "CREATE_CONTENT",
+        "MESSAGING",
+        "MODERATE",
+        "MANAGE",
+        "VIEW_MONETIZATION_INSIGHTS"
+      ]
+    },
+    {
+      "id": "796480326889963",
+      "name": "Inversiones Soler",
+      "access_token": "EAFt4sGcAOb4BRSvgetqEx8ZBwlUGaVka0t0fcy9lNwbqqqsrHTRo8sgVu0ydk6oZCJEl4QjKZCN09TZAGC3ISs4tqpE8wSDb8rKlj2gqQZB3JitHAsz1DmwdZAvnT5gwdo7AZBiMisAivZAmGKAVZCQC9e0YDQZBNRajenA0fueaP8xSYVfKUXG5VCMZBKmxzwLamGYieZAz",
+      "category": "Sector inmobiliario",
+      "tasks": [
+        "MODERATE",
+        "MESSAGING",
+        "ANALYZE",
+        "ADVERTISE",
+        "CREATE_CONTENT",
+        "MANAGE"
+      ]
+    },
+    {
+      "id": "797310113463115",
+      "name": "Esmeraldas Soler",
+      "access_token": "EAFt4sGcAOb4BRRszHFE8lSrM65ksjb2TdmhD0ewsYqObZC5ZC2GnI2TDlfjeesVBZBxHUPwMcH6Gx54tbZCInWS4oiPKraJlZAtY9EElxjd5hifQPIkWpBqToIvG0WPVt7Ih0nOrdccvGZAZAfzuuCCM8N6azVWmtm8vCtyLguWcwxqx4Uz5guW4SSEA399DEE1WCYx",
+      "category": "Empresa de joyería y relojes",
+      "tasks": [
+        "ADVERTISE",
+        "ANALYZE",
+        "CREATE_CONTENT",
+        "MESSAGING",
+        "MODERATE",
+        "MANAGE",
+        "VIEW_MONETIZATION_INSIGHTS"
+      ]
+    },
+    {
+      "id": "100123132505557",
+      "name": "Autos Soler",
+      "access_token": "EAFt4sGcAOb4BRVfxmFUF1l5y11ypKXX3CeLKLBWRkLVGflvDyyrPcq7JzK4XOiI4Q8XKZCtwGIu3qelXFFgY6lypvE6nlrsdbKDvAoGOfVi1Kxje7C78mZCQ7pxLgVrrUYfZArpH0kP1x7EIlLqQwbBwbTVtlxfZB5KmnGPtl5J3IISasu9oGSiyrzLUr0qDdkwZD",
+      "category": "Emprendedor",
+      "tasks": [
+        "MODERATE",
+        "MESSAGING",
+        "ANALYZE",
+        "ADVERTISE",
+        "CREATE_CONTENT",
+        "MANAGE"
+      ]
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUzR1NkViYUliSmpYUXVlakU4YldUX05rWWtaZAjJ5N2RBeXJSVC1zZAGJ3eFZAyRU1jaG9FbTQ4ZAEJCWnhIRW9aZAHN6WlRwYnJvTDR1dnJxejIyY2VuSWZA3",
+      "after": "QVFIU0hqMkhIQXpyWDVWRTRjWmNyLWloV0E5OTQ5Q3drTkZAncHJXYVRvMkhkbG1JTXI4VURuYU0yS2YxTGlEQ3lrel9YOEM1cm5zSkJ4djE4RFFCZAUo3YndB"
+    }
+  }
+}

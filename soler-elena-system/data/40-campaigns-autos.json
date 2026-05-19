@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": "6973745605052",
+      "name": "Autos Soler — Últimos Vehículos Multi-canal 2026-05",
+      "status": "PAUSED",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "start_time": "2026-05-07T10:59:01-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "PAUSED",
+      "effective_status": "PAUSED"
+    },
+    {
+      "id": "6971396708252",
+      "name": "[Hyundai Accent GL 2017] Publicación de Marketplace promocionada el 4/5/2026",
+      "status": "ACTIVE",
+      "objective": "CONVERSIONS",
+      "daily_budget": "500",
+      "start_time": "2026-05-04T19:42:59-0600",
+      "stop_time": "2026-05-07T19:42:59-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "ACTIVE",
+      "effective_status": "ACTIVE"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIU3lULUgzV2lyM1FPMy04TDM1TVh1cEZAmb0JMb3g3NUZAOV2ZAJejNHSG1ETV9ReVdlckJydEFzTGxta3B6ZAFNCcUdXV0RTbFdUSDBqYzJmWXE2Qk5HQVNR",
+      "after": "QVFIUzJ2UWJnak5sNW9TSDZApakZALdHpPRkdRakJhUlUwSWtVZA3ZAmMkdqaERFRE84NW1hdTRKaUktOXQ0Vk1qMHdJallWV1RXNDFJcWc3OXN4OUJIYlFadHNn"
+    }
+  }
+}

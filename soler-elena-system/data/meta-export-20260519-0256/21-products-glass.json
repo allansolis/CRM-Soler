@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": "35745554521724734",
+      "name": "Polarizado Máxima Protección — 54,000 micras",
+      "description": "Resistencia balística certificada. Cotización personalizada. El nivel más alto.",
+      "price": "1 500 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://glasssoler.com/wp-content/uploads/2024/maxima.jpg",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%2C%20deseo%20cotizar%20Polarizado%20Maxima",
+      "brand": "Glass Soler",
+      "retailer_id": "GLASS-MAXIMA"
+    },
+    {
+      "id": "26529660233329260",
+      "name": "Polarizado Seguridad Premium — 27,000 micras",
+      "description": "Tecnología multicapa. Máxima resistencia contra robo agresivo. Mantiene vidrio unido tras impacto. Ideal SUVs y pickups.",
+      "price": "999 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://glasssoler.com/wp-content/uploads/2024/premium.jpg",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%2C%20deseo%20cotizar%20Polarizado%20Premium",
+      "brand": "Glass Soler",
+      "retailer_id": "GLASS-PREMIUM"
+    },
+    {
+      "id": "26729217793406180",
+      "name": "Polarizado Seguridad Full — 16,000 micras",
+      "description": "Doble grosor. Resiste impactos directos y bloquea 99% UV. Recomendado para vehículos familiares.",
+      "price": "499 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://glasssoler.com/wp-content/uploads/2024/full.jpg",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%2C%20deseo%20cotizar%20Polarizado%20Full",
+      "brand": "Glass Soler",
+      "retailer_id": "GLASS-FULL"
+    },
+    {
+      "id": "26782692024748196",
+      "name": "Polarizado Seguridad Básica — 8,000 micras",
+      "description": "Protección esencial contra robos de oportunidad, exposición solar y privacidad básica. Película importada de USA. Instalación profesional incluida.",
+      "price": "299 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://glasssoler.com/wp-content/uploads/2024/basica.jpg",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%2C%20deseo%20cotizar%20Polarizado%20Basica",
+      "brand": "Glass Soler",
+      "retailer_id": "GLASS-BASICA"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIU21vdlJ4ZAmpJNzdZAQlpBOWlPTlFtdERENjFvMHQzWXBtQjFtVGN4MFhjVDlDelBhaEx6RW9KUVk4TGlFQ0hiM2VUZAjNSMzZABN3JCUjJyeEZA0clRhV1hB",
+      "after": "QVFIU2tZAOU5IenNPcjRBclIwMUNuMjJZAQ2VlOGp5ZAU9peGFsaEhJNjVlMkRQMkdTRmZANcHBBdjdhOS1RZATZARdjhlSEpab1NIZAHlIR3R2dnQtdUtodC1hNE53"
+    },
+    "next": "https://graph.facebook.com/v25.0/1670886954032475/products?fields=id,name,description,price,currency,availability,image_url,url,brand,retailer_id&limit=100&access_token=EAFt4sGcAOb4BRVfBrHwwCYZAQ5qFK83mculat1tqmWTW9GH8n62embWWEYqHdh5eTwjuC7eSXiJaJqxdhzepgV9a95hFpaMo2o7MUaZAxZCB9p08ZC8M9OW4Hv0NTMZC2QTMPiPJSax2qgXa66MsiH8HsZBE6y8ztvlFyeS7eyNVK2Sl4TKkRr1fKryHJi73nEZBsmp&after=QVFIU2tZAOU5IenNPcjRBclIwMUNuMjJZAQ2VlOGp5ZAU9peGFsaEhJNjVlMkRQMkdTRmZANcHBBdjdhOS1RZATZARdjhlSEpab1NIZAHlIR3R2dnQtdUtodC1hNE53",
+    "previous": "https://graph.facebook.com/v25.0/1670886954032475/products?fields=id,name,description,price,currency,availability,image_url,url,brand,retailer_id&limit=100&access_token=EAFt4sGcAOb4BRVfBrHwwCYZAQ5qFK83mculat1tqmWTW9GH8n62embWWEYqHdh5eTwjuC7eSXiJaJqxdhzepgV9a95hFpaMo2o7MUaZAxZCB9p08ZC8M9OW4Hv0NTMZC2QTMPiPJSax2qgXa66MsiH8HsZBE6y8ztvlFyeS7eyNVK2Sl4TKkRr1fKryHJi73nEZBsmp&before=QVFIU21vdlJ4ZAmpJNzdZAQlpBOWlPTlFtdERENjFvMHQzWXBtQjFtVGN4MFhjVDlDelBhaEx6RW9KUVk4TGlFQ0hiM2VUZAjNSMzZABN3JCUjJyeEZA0clRhV1hB"
+  }
+}

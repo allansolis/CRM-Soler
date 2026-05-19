@@ -1,0 +1,25 @@
+{
+  "name": "Esmeraldas SOLER - Joyeria Plata 925",
+  "product_count": 30,
+  "vertical": "commerce",
+  "product_sets": {
+    "data": [
+      {
+        "name": "All Products",
+        "product_count": 30,
+        "id": "931808299555433"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIU1J6V2hTMnkzMk13bXVYLWRvdmRCTTNpWDFuTEhkY3dQTU9hMndkaGFtaHExNUZARNzdqcV9WQUV5ZADJlQWdHZAVViZA1E4OUttR3lOSndNejFLc0RGLV9n",
+        "after": "QVFIU1J6V2hTMnkzMk13bXVYLWRvdmRCTTNpWDFuTEhkY3dQTU9hMndkaGFtaHExNUZARNzdqcV9WQUV5ZADJlQWdHZAVViZA1E4OUttR3lOSndNejFLc0RGLV9n"
+      }
+    }
+  },
+  "business": {
+    "id": "1145191446124291",
+    "name": "Farmacologia deportiva"
+  },
+  "id": "944718051249202"
+}

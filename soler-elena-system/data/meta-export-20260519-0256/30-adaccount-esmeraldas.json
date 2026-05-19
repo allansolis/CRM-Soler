@@ -1,0 +1,15 @@
+{
+  "name": "1868510380157902",
+  "account_status": 9,
+  "balance": "6523",
+  "currency": "CRC",
+  "amount_spent": "100000",
+  "spend_cap": "100000",
+  "age": 1273.9247569444,
+  "disable_reason": 0,
+  "business": {
+    "id": "1145191446124291",
+    "name": "Farmacologia deportiva"
+  },
+  "id": "act_1868510380157902"
+}
