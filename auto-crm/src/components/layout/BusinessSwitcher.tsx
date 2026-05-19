@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+// useRef for init guard
 import { useBusiness, BusinessId } from "@/context/BusinessContext";
 import { ChevronDown, Check } from "lucide-react";
 
@@ -17,9 +18,21 @@ export function BusinessSwitcher() {
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Track inicialización para evitar reload en mount
+  const initRef = useRef(false);
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       localStorage.setItem("business", business);
+      // Tambien escribir cookie para que server components puedan leerlo
+      document.cookie = `business=${business}; path=/; max-age=${60 * 60 * 24 * 365}`;
+      // En el primer mount no refrescamos. Solo en cambios reales.
+      if (!initRef.current) {
+        initRef.current = true;
+        return;
+      }
+      // Refresh para que server re-renderice paginas con cookies
+      window.location.reload();
     }
   }, [business]);
 

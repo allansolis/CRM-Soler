@@ -1,10 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
+import { cookies } from "next/headers";
 import { db } from "@/db";
 import { deals, contacts, pipelineStages } from "@/db/schema";
 import { eq, desc } from "drizzle-orm";
 
-export async function GET() {
-  const results = db
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const businessParam = searchParams.get("business");
+  const cookieStore = await cookies();
+  const business = businessParam || cookieStore.get("business")?.value || "glass_soler";
+
+  let query = db
     .select({
       id: deals.id,
       title: deals.title,
@@ -14,6 +20,7 @@ export async function GET() {
       expectedClose: deals.expectedClose,
       probability: deals.probability,
       notes: deals.notes,
+      business: deals.business,
       createdAt: deals.createdAt,
       updatedAt: deals.updatedAt,
       contactName: contacts.name,
@@ -27,10 +34,13 @@ export async function GET() {
     })
     .from(deals)
     .leftJoin(contacts, eq(deals.contactId, contacts.id))
-    .leftJoin(pipelineStages, eq(deals.stageId, pipelineStages.id))
-    .orderBy(desc(deals.createdAt))
-    .all();
+    .leftJoin(pipelineStages, eq(deals.stageId, pipelineStages.id));
 
+  if (business !== "all") {
+    query = query.where(eq(deals.business, business)) as typeof query;
+  }
+
+  const results = query.orderBy(desc(deals.createdAt)).all();
   return NextResponse.json(results);
 }
 

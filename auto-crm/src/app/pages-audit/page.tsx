@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useBusiness } from "@/context/BusinessContext";
 import {
   Users,
   Heart,
@@ -72,11 +73,12 @@ interface PageAudit {
 }
 
 export default function PagesAuditPage() {
+  const { business, businessConfig } = useBusiness();
   const [data, setData] = useState<{ totals: any; pages: PageAudit[] } | null>(
     null
   );
   const [loading, setLoading] = useState(true);
-  const [selectedPage, setSelectedPage] = useState<string | null>(null);
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     fetch("/api/pages-audit")
@@ -93,42 +95,77 @@ export default function PagesAuditPage() {
     return <div className="p-8">Error cargando datos</div>;
   }
 
-  const currentPage = selectedPage
-    ? data.pages.find((p) => p.meta.slug === selectedPage)
-    : null;
+  // Filter by current business (unless "Ver todo" is toggled)
+  const filteredPages = showAll
+    ? data.pages
+    : data.pages.filter((p) => p.meta.business === business);
+
+  // The page for current business
+  const currentPage =
+    filteredPages.length === 1 ? filteredPages[0] : null;
+
+  // Recompute totals from filtered pages
+  const totals = filteredPages.reduce(
+    (acc, p) => {
+      if (!p.audit) return acc;
+      const s = p.audit.stats;
+      acc.total_pages++;
+      acc.total_posts += s.total_posts;
+      acc.total_photos += s.total_photos;
+      acc.total_videos += s.total_videos;
+      acc.total_fans += p.audit.info.fan_count || 0;
+      acc.total_followers += p.audit.info.followers_count || 0;
+      return acc;
+    },
+    {
+      total_pages: 0,
+      total_posts: 0,
+      total_photos: 0,
+      total_videos: 0,
+      total_fans: 0,
+      total_followers: 0,
+    }
+  );
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
           <h1 className="text-2xl font-bold flex items-center gap-2">
-            🔍 Auditoria de Pages Meta
+            🔍 Auditoria Meta — <span style={{ color: businessConfig.color }}>
+              {businessConfig.emoji} {businessConfig.name}
+            </span>
           </h1>
           <p className="text-sm text-muted-foreground">
-            Estado completo de las 4 pages del Grupo Soler
+            {showAll
+              ? "Mostrando las 4 marcas del Grupo Soler"
+              : `Filtrado por marca activa. Cambia el switcher arriba o "Ver todas".`}
           </p>
         </div>
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="text-sm px-3 py-1.5 rounded-md border hover:bg-muted/60"
+        >
+          {showAll ? "Solo marca activa" : "Ver las 4 marcas"}
+        </button>
       </div>
 
-      {/* Totales globales */}
+      {/* Totales globales (filtrados) */}
       <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
-        <KPI label="Pages auditadas" value={data.totals.total_pages} icon={<Users className="h-4 w-4" />} />
-        <KPI label="Total fans" value={data.totals.total_fans.toLocaleString()} icon={<Heart className="h-4 w-4 text-pink-500" />} />
-        <KPI label="Total followers" value={data.totals.total_followers.toLocaleString()} icon={<Users className="h-4 w-4 text-blue-500" />} />
-        <KPI label="Posts totales" value={data.totals.total_posts} icon={<MessageCircle className="h-4 w-4 text-emerald-500" />} />
-        <KPI label="Fotos totales" value={data.totals.total_photos} icon={<ImageIcon className="h-4 w-4 text-amber-500" />} />
-        <KPI label="Videos totales" value={data.totals.total_videos} icon={<Video className="h-4 w-4 text-purple-500" />} />
+        <KPI label="Pages" value={totals.total_pages} icon={<Users className="h-4 w-4" />} />
+        <KPI label="Fans" value={totals.total_fans.toLocaleString()} icon={<Heart className="h-4 w-4 text-pink-500" />} />
+        <KPI label="Followers" value={totals.total_followers.toLocaleString()} icon={<Users className="h-4 w-4 text-blue-500" />} />
+        <KPI label="Posts" value={totals.total_posts} icon={<MessageCircle className="h-4 w-4 text-emerald-500" />} />
+        <KPI label="Fotos" value={totals.total_photos} icon={<ImageIcon className="h-4 w-4 text-amber-500" />} />
+        <KPI label="Videos" value={totals.total_videos} icon={<Video className="h-4 w-4 text-purple-500" />} />
       </div>
 
-      {/* Lista de pages */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {data.pages.map((p) => (
-          <button
+      {/* Lista de pages filtrada */}
+      <div className={`grid grid-cols-1 ${showAll ? "md:grid-cols-2" : ""} gap-4`}>
+        {filteredPages.map((p) => (
+          <div
             key={p.meta.id}
-            onClick={() => setSelectedPage(p.meta.slug === selectedPage ? null : p.meta.slug)}
-            className={`text-left rounded-lg border p-5 transition-all hover:shadow-md ${
-              selectedPage === p.meta.slug ? "ring-2 ring-primary" : ""
-            }`}
+            className="text-left rounded-lg border p-5"
             style={{ borderLeftColor: p.meta.color, borderLeftWidth: 4 }}
           >
             <div className="flex items-start justify-between mb-3">
@@ -202,7 +239,7 @@ export default function PagesAuditPage() {
                 </div>
               </>
             )}
-          </button>
+          </div>
         ))}
       </div>
 

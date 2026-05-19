@@ -1,32 +1,48 @@
 import { NextRequest, NextResponse } from "next/server";
+import { cookies } from "next/headers";
 import { db } from "@/db";
 import { contacts } from "@/db/schema";
-import { eq, like, or, desc } from "drizzle-orm";
+import { eq, like, or, desc, and } from "drizzle-orm";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const search = searchParams.get("search");
   const temperature = searchParams.get("temperature");
   const source = searchParams.get("source");
+  const businessParam = searchParams.get("business");
 
-  let query = db.select().from(contacts);
+  // Leer business cookie si no viene en query
+  const cookieStore = await cookies();
+  const business = businessParam || cookieStore.get("business")?.value || "glass_soler";
+
+  const filters: any[] = [];
+
+  // Filtro business (a menos que sea "all")
+  if (business && business !== "all") {
+    filters.push(eq(contacts.business, business));
+  }
 
   if (search) {
-    query = query.where(
+    filters.push(
       or(
         like(contacts.name, `%${search}%`),
         like(contacts.email, `%${search}%`),
         like(contacts.company, `%${search}%`)
-      )
-    ) as typeof query;
+      )!
+    );
   }
 
   if (temperature) {
-    query = query.where(eq(contacts.temperature, temperature)) as typeof query;
+    filters.push(eq(contacts.temperature, temperature));
   }
 
   if (source) {
-    query = query.where(eq(contacts.source, source)) as typeof query;
+    filters.push(eq(contacts.source, source));
+  }
+
+  let query = db.select().from(contacts);
+  if (filters.length > 0) {
+    query = query.where(and(...filters)) as typeof query;
   }
 
   const results = query.orderBy(desc(contacts.createdAt)).all();
