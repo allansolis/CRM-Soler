@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "122093455485041192",
+      "name": "Fotos",
+      "count": 234,
+      "cover_photo": {
+        "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t51.82787-15/701019840_17881115796578224_278560189332483871_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=041ae2&_nc_ohc=yx0e5VOYoz4Q7kNvwEdXbwv&_nc_oc=AdrMzppUjPjLIQUVJ5kfJzJfmltvOp-icRjBy8YQtf0BzwCmj4xv8gavYVcxolFinkI&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=ABHaK5EEAAAA&_nc_gid=yCmgCGvyrSv69YOQuFph-Q&_nc_tpa=Q5bMBQGymaN85MrVTItX4L77AUDU-a46fQww1W3BcwxE6rFhzyuIGuig8t-g4bHT94IPuIl7lAEZm6WyoH4&oh=00_Af6SRW-5Cm0vYhoRDgiu-kBh1alOf961HZRi99iNtbRiQQ&oe=6A11B386",
+        "id": "122132054763041192"
+      }
+    },
+    {
+      "id": "122093449365041192",
+      "name": "Fotos de portada",
+      "count": 3,
+      "cover_photo": {
+        "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/688814282_122131012155041192_766677475060365164_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a3f305&_nc_ohc=s5R8D4WkyAIQ7kNvwHyecWE&_nc_oc=AdpOksTXgzEnfrlTkbTbf2xDplHQLGzcZe0uE5J62J4jR4RTQbfqVbuz5EaDR8kawYw&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=ABHaK5EEAAAA&_nc_gid=yCmgCGvyrSv69YOQuFph-Q&_nc_tpa=Q5bMBQHTRHi4Wmvtv_5QwFb19PIR0nfncIxT7iqVhUwebbVsgtTgcaDeUM2LeaxyYoSRetIqoG2GchHJsOE&oh=00_Af50LGGXSOGi2X3dJE1iCFcXlbfZVXcsj67wIbGFWvwXWQ&oe=6A119FF6",
+        "id": "122131012149041192"
+      }
+    },
+    {
+      "id": "122093448279041192",
+      "name": "Fotos del perfil",
+      "count": 2,
+      "cover_photo": {
+        "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/548673989_1132559458828507_7911628227816538173_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=d30c9b&_nc_ohc=X-tl7nkGPjAQ7kNvwFWDDyG&_nc_oc=Adpsc81AkCo0mhOEOPEbmTQtvHg6S-Er6L73Vnqor2tWHb4Oc6Ihwg_7IDwNwzB86Pw&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=ABHaK5EEAAAA&_nc_gid=yCmgCGvyrSv69YOQuFph-Q&_nc_tpa=Q5bMBQHpjLERS0NROHdyDdY_mOeuOg-9VLDhfrtvpQi4t1y9i_-nZXqYBoQUG6lV2p7v33i6RIov6fp0bAY&oh=00_Af6T1e5RR7GHw-xHLQOIUCQdCZWMw3_5c7LFHyIkAyzeVg&oe=6A11BAB8",
+        "id": "122093449329041192"
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MTIyMDkzNDU1NDg1MDQxMTky",
+      "after": "MTIyMDkzNDQ4Mjc5MDQxMTky"
+    }
+  }
+}

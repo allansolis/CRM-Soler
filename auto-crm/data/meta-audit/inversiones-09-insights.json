@@ -1,0 +1,4 @@
+{
+  "_error": "HTTP 400",
+  "_body": "{\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A97sGtP2_z8oRXY7ztg70Cm\"}}"
+}

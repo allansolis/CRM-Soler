@@ -1,0 +1,4 @@
+{
+  "_error": "HTTP 400",
+  "_body": "{\"error\":{\"message\":\"Service temporarily unavailable\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":2,\"error_subcode\":2018344,\"error_user_title\":\"Condiciones de privacidad del servicio no acepta"
+}

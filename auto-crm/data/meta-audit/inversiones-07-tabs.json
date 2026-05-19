@@ -1,0 +1,4 @@
+{
+  "_error": "HTTP 400",
+  "_body": "{\"error\":{\"message\":\"Permissions error\",\"type\":\"OAuthException\",\"code\":200,\"error_subcode\":2069033,\"is_transient\":false,\"error_user_title\":\"Funci\\u00f3n no disponible en la nueva experiencia de p\\u00e"
+}

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "122094170655060952",
+      "name": "Fotos de portada",
+      "count": 1,
+      "cover_photo": {
+        "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/556990791_122094170637060952_4715057333345944796_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a3f305&_nc_ohc=yPPrO9Z6MbUQ7kNvwHVrF6p&_nc_oc=AdosSc4_2LecJQAkCZKZ34uBI2ot3HLYct_1EN0K8kWkdFVL8UtgjbaPGj2_d22HgP8&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=ABHaK5EEAAAA&_nc_gid=6hDf34BSPA-0NAkpWnLIVg&_nc_tpa=Q5bMBQGbjVPCxyCqL9dP4p6h1g6n9uyVzTV3Oudb_3jcIn9b2WQHjDjGfCcYSmQ9oucGhwJd5WGPeKfVeJA&oh=00_Af48k0O7tRcWcbvMBZiLHiUC1j6_4Ampp25WAN-SeMRWRQ&oe=6A11A2DA",
+        "id": "122094170631060952"
+      }
+    },
+    {
+      "id": "122093579277060952",
+      "name": "Fotos del perfil",
+      "count": 2,
+      "cover_photo": {
+        "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/558121835_122094160095060952_2107857035482389504_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d30c9b&_nc_ohc=WqzkT14m4xkQ7kNvwF5hYEA&_nc_oc=AdpOnGbzL9eQn4lzsDffPgCfnVHNyTtsLa9ngYdN5iUBxZeYY_oJoSVnxuNNREclYSE&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=ABHaK5EEAAAA&_nc_gid=6hDf34BSPA-0NAkpWnLIVg&_nc_tpa=Q5bMBQF1IxElgoRHMDgc54bL21tfcxnZylprMjzJh0ISFDO57FJLKVqmTtsCtytJiIDiL5mE9A2-URcxvY4&oh=00_Af4GYBC0dV_pOAPHJyexu_j1nXjf4flb2PjrtfUUyjI4aw&oe=6A11AAAF",
+        "id": "122094160089060952"
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MTIyMDk0MTcwNjU1MDYwOTUy",
+      "after": "MTIyMDkzNTc5Mjc3MDYwOTUy"
+    }
+  }
+}

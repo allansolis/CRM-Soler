@@ -1,0 +1,47 @@
+{
+  "id": "100123132505557",
+  "name": "Autos Soler",
+  "about": "\"El auto de tus sueños lo haces realidad con Autos Soler “",
+  "category": "Entrepreneur",
+  "category_list": [
+    {
+      "id": "1617",
+      "name": "Emprendedores"
+    }
+  ],
+  "fan_count": 442,
+  "followers_count": 442,
+  "rating_count": 0,
+  "overall_star_rating": 0,
+  "phone": "+50663790438",
+  "link": "https://www.facebook.com/100123132505557",
+  "hours": {
+    "mon_1_open": "09:00",
+    "mon_1_close": "17:00",
+    "tue_1_open": "09:00",
+    "tue_1_close": "17:00",
+    "wed_1_open": "09:00",
+    "wed_1_close": "17:00",
+    "thu_1_open": "09:00",
+    "thu_1_close": "17:00",
+    "fri_1_open": "09:00",
+    "fri_1_close": "17:00",
+    "sat_1_open": "09:00",
+    "sat_1_close": "15:00"
+  },
+  "is_published": true,
+  "is_webhooks_subscribed": false,
+  "can_post": true,
+  "can_checkin": true,
+  "checkins": 0,
+  "username": "autosoler",
+  "verification_status": "not_verified",
+  "cover": {
+    "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/557728276_818400350695911_2771878186292425023_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dc4938&_nc_ohc=yY4rHKobQQ4Q7kNvwH5zFI-&_nc_oc=AdrZwO3cWdUUDWoPSCvW6NE6KlmdjYo7Kvhx4pRRWvGgi2eV3gRssclSoZ_KxMU3Iyg&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=AJdBtusEAAAA&_nc_gid=08oYwnZeD5Lb4fKVI6vI3g&_nc_tpa=Q5bMBQEWvkIfZy-aO0u0pRTrFeeZhEZNV5s5zEbllaZ6CwnUyRLXNQZzm3nWw6-NpUdOaKgJ8E3ejYM7uYg&oh=00_Af7gzJ1cvGSU-NJOwGXjaOsdvfoXDYtKVwitJ568TJ2jJA&oe=6A119F28",
+    "offset_y": 46,
+    "id": "818400344029245"
+  },
+  "talking_about_count": 0,
+  "page_token": "autosoler",
+  "access_token": "EAFt4sGcAOb4BRfp4yEiggZAaqYMEorG8c4M54BPZAv7lKFHyAfURYJ8ZCy63VUXpl0tLuGpMq7UZA9iCfkPqhOjDGzK7MjuQZAVN5pZBFZAknXcyAycdNWlboWw0ZBramByZBoTGKF81w8ZAi3GUuZAmD0OxtnRexrFK7vTTRd4pGhtUQ8uxk2WAT0VV9jN2eAuJCVI9F9v2GIZD"
+}

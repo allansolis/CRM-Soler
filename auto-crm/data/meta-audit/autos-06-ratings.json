@@ -1,0 +1,4 @@
+{
+  "_error": "HTTP 400",
+  "_body": "{\"error\":{\"message\":\"(#283) Requires pages_read_user_content permission to manage the object\",\"type\":\"OAuthException\",\"code\":283,\"fbtrace_id\":\"AMymzVwvKMEzb745e09UINL\"}}"
+}

@@ -16,6 +16,7 @@ import {
   Flame,
   BarChart3,
   Gauge,
+  Search,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useBusiness } from "@/context/BusinessContext";
@@ -31,6 +32,7 @@ const navItems = [
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
   { href: "/performance", label: "Performance", icon: Gauge },
   { href: "/ads", label: "Meta Ads", icon: Megaphone },
+  { href: "/pages-audit", label: "Auditoría Pages", icon: Search },
   { href: "/loyalty", label: "Lealtad", icon: Crown },
   { href: "/reports", label: "Reportes", icon: FileBarChart },
   { href: "/activities", label: "Actividades", icon: Activity },
