@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment + secrets
+.env
+.env.local
+.env*.local
+*.env.private
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+auto-crm/data/crm.db-shm
+auto-crm/data/crm.db-wal
+soler-elena-system/scripts/watch.log
+soler-elena-system/scripts/tunnel.log
+auto-crm/data/leads-statuses.json
+
+# Bot runtime data
+soler-elena-system/bots/data/
+*.db
+*.db-shm
+*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Backups (keep external)
+backups/*.bundle
+backups/*.zip
+
+# Meta sensitive
+**/tokens.txt
+**/credentials.json
+**/page_tokens/
+
+# Temp
+tmp/
+*.tmp
