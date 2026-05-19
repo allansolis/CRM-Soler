@@ -14,7 +14,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Auto-CRM - Tu CRM con Inteligencia Artificial",
+  title: "CRM SOLER - Centro de control multi-marca",
   description:
     "CRM conversacional con pipeline de ventas, clasificacion automatica de leads y seguimiento inteligente. Construido con Claude Code.",
 };
