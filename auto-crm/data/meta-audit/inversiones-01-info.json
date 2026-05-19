@@ -1,6 +1,7 @@
 {
   "id": "796480326889963",
   "name": "Inversiones Soler",
+  "about": "Su próxima propiedad puede pagarse sola 🏘️ Asesoría inmobiliaria experta en Costa Rica. Compra para vivir, inversión renta (5-7%), Airbnb (8-15%), flip (15-30% en 6-12m), asesoría legal completa.",
   "category": "Real Estate",
   "category_list": [
     {
@@ -20,7 +21,13 @@
   "followers_count": 0,
   "rating_count": 0,
   "overall_star_rating": 0,
+  "phone": "+50663790438",
+  "emails": [
+    "info@inversionessoler.com"
+  ],
+  "website": "https://allansolis.github.io/soler-legal/",
   "link": "https://www.facebook.com/796480326889963",
+  "description": "Inversiones Soler asesora inversionistas locales y expats en compra, venta y administración de propiedades. ROIs reales por zona: Escazú/Santa Ana 5-7%, Tamarindo/Jacó 8-15% Airbnb, flip 15-30%. Análisis personalizado.",
   "is_published": true,
   "is_webhooks_subscribed": false,
   "can_post": true,
@@ -28,11 +35,11 @@
   "checkins": 0,
   "verification_status": "not_verified",
   "cover": {
-    "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/556990791_122094170637060952_4715057333345944796_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dc4938&_nc_ohc=yPPrO9Z6MbUQ7kNvwHVrF6p&_nc_oc=AdosSc4_2LecJQAkCZKZ34uBI2ot3HLYct_1EN0K8kWkdFVL8UtgjbaPGj2_d22HgP8&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=AJdBtusEAAAA&_nc_gid=26cnFGQDhuJdhehA-N44IQ&_nc_tpa=Q5bMBQHdJbGwmjHSWnYZidAB8IFLar4Mrq1iei5RBk83R55NH6KjGqOwjdPDZGH0oLsvj5R64T-hy9MUqEU&oh=00_Af46FnnEBkXbsneAMiT7FZrJAWLEX-zg2rThl-bqSwlHdQ&oe=6A11A2DA",
+    "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/556990791_122094170637060952_4715057333345944796_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dc4938&_nc_ohc=yPPrO9Z6MbUQ7kNvwHVrF6p&_nc_oc=AdosSc4_2LecJQAkCZKZ34uBI2ot3HLYct_1EN0K8kWkdFVL8UtgjbaPGj2_d22HgP8&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=AJdBtusEAAAA&_nc_gid=jvx5P9tk4TYKNun0G_sCog&_nc_tpa=Q5bMBQFM2bX8w1z3kqB7ZjivdnTVjmv5CY3FYz-aWYYEZUhlG0Gz-AHYJbsY7G4039Tj-zjIrs3wvqOjr2Q&oh=00_Af633iU2Zoj-8YjntZe4gH57-4EDwMpmy3D7x1A9XsK3uA&oe=6A11A2DA",
     "offset_y": 50,
     "id": "122094170631060952"
   },
   "talking_about_count": 0,
   "page_token": "Inversiones-Soler-796480326889963",
-  "access_token": "EAFt4sGcAOb4BRStrQn7RRyRhcz3NWEo7KY5wfbXZBXNscjPCc1eVQNbMPOlc8ZCLlyRruvcKFlU9WwZBioUbwhnZC4BA1FT8zo63pdDvvnliZCSKslioSSyetPagqY4u0aw9LxTB71thSqHy1a2UrLKXx604mkmZBod57ZAGJcXwGfHRCAxdKihnIdjo6s3umIAiHnzu1gT"
+  "access_token": "EAFt4sGcAOb4BRXZAn8U4AZADLL9ruDfDlmlgnz9ij8DPQA899N1VCaxTrllYwHtL3YsGcWTidWEpzrZCnZAzECpwsXd8vewRuyUYIxZCECqWowlXTBTveALwi4vPlguUxzAf0tnAhaZB6cF7I45N4Xt3zjlrMQ7lmefi3ZCu83Fs3C7wIMuGTdMd1mZBnpWzQmtgKawqEwYu"
 }

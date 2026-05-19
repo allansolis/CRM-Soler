@@ -1,7 +1,7 @@
 {
   "id": "100123132505557",
   "name": "Autos Soler",
-  "about": "\"El auto de tus sueños lo haces realidad con Autos Soler “",
+  "about": "El auto de tus sueños lo haces realidad con Autos Soler 🚗 Compra-venta de vehículos certificados en Costa Rica. Financiamiento bancario, recibimos tu vehículo, trámites completos incluidos.",
   "category": "Entrepreneur",
   "category_list": [
     {
@@ -14,6 +14,10 @@
   "rating_count": 0,
   "overall_star_rating": 0,
   "phone": "+50663790438",
+  "emails": [
+    "info@autossoler.com"
+  ],
+  "website": "https://allansolis.github.io/soler-legal/",
   "link": "https://www.facebook.com/100123132505557",
   "hours": {
     "mon_1_open": "09:00",
@@ -29,6 +33,7 @@
     "sat_1_open": "09:00",
     "sat_1_close": "15:00"
   },
+  "description": "Concesionario de vehículos usados con garantía mecánica. Revisión completa pre-venta, financiamiento BAC/BCR/BN/Davivienda. Trámites Riteve, marchamo y traspaso incluidos.",
   "is_published": true,
   "is_webhooks_subscribed": false,
   "can_post": true,
@@ -37,11 +42,11 @@
   "username": "autosoler",
   "verification_status": "not_verified",
   "cover": {
-    "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/557728276_818400350695911_2771878186292425023_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dc4938&_nc_ohc=yY4rHKobQQ4Q7kNvwH5zFI-&_nc_oc=AdrZwO3cWdUUDWoPSCvW6NE6KlmdjYo7Kvhx4pRRWvGgi2eV3gRssclSoZ_KxMU3Iyg&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=AJdBtusEAAAA&_nc_gid=08oYwnZeD5Lb4fKVI6vI3g&_nc_tpa=Q5bMBQEWvkIfZy-aO0u0pRTrFeeZhEZNV5s5zEbllaZ6CwnUyRLXNQZzm3nWw6-NpUdOaKgJ8E3ejYM7uYg&oh=00_Af7gzJ1cvGSU-NJOwGXjaOsdvfoXDYtKVwitJ568TJ2jJA&oe=6A119F28",
+    "source": "https://scontent.fsjo3-1.fna.fbcdn.net/v/t39.30808-6/557728276_818400350695911_2771878186292425023_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dc4938&_nc_ohc=yY4rHKobQQ4Q7kNvwH5zFI-&_nc_oc=AdrZwO3cWdUUDWoPSCvW6NE6KlmdjYo7Kvhx4pRRWvGgi2eV3gRssclSoZ_KxMU3Iyg&_nc_zt=23&_nc_ht=scontent.fsjo3-1.fna&edm=AJdBtusEAAAA&_nc_gid=uk9GjclyHpjBHcBM8W9y0g&_nc_tpa=Q5bMBQH5fu50IxU3k8Kn78PtQ2oHlycknztRqYa4lK1r_vLxnwh1lbMhimy0t17dY3YUF2VAF3NPzIm8QK4&oh=00_Af5GSMNYdf-Je88Becpy5V_Tk2Jjae-KDtVXgeR-jtXvEw&oe=6A119F28",
     "offset_y": 46,
     "id": "818400344029245"
   },
   "talking_about_count": 0,
   "page_token": "autosoler",
-  "access_token": "EAFt4sGcAOb4BRfp4yEiggZAaqYMEorG8c4M54BPZAv7lKFHyAfURYJ8ZCy63VUXpl0tLuGpMq7UZA9iCfkPqhOjDGzK7MjuQZAVN5pZBFZAknXcyAycdNWlboWw0ZBramByZBoTGKF81w8ZAi3GUuZAmD0OxtnRexrFK7vTTRd4pGhtUQ8uxk2WAT0VV9jN2eAuJCVI9F9v2GIZD"
+  "access_token": "EAFt4sGcAOb4BRc3KVZCunqGyNhe3k5FVKoNQotb2oeeCzZBQDc2cOZAE752LDimakmTFlYg9xYtVKI6pHKzUIdY3mAuC2Tt35RaEE7T5RYpX6zBhZCHMPrPZBSURXFKYuZAGKsP3R8UDf1TBPqGZA1VvmNlqiB5ECy59r7osJRFO6ztQbjx3kmbamGU99kfnh1Xsx0ZD"
 }
