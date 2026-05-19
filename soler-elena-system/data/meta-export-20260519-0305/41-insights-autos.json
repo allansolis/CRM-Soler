@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "spend": "1497",
+      "impressions": "2986",
+      "reach": "1779",
+      "clicks": "297",
+      "ctr": "9.946417",
+      "cpc": "5.040404",
+      "cpm": "501.339585",
+      "actions": [
+        {
+          "action_type": "link_click",
+          "value": "173"
+        },
+        {
+          "action_type": "page_engagement",
+          "value": "176"
+        },
+        {
+          "action_type": "onsite_conversion.post_unlike",
+          "value": "1"
+        },
+        {
+          "action_type": "post_engagement",
+          "value": "176"
+        },
+        {
+          "action_type": "post_interaction_gross",
+          "value": "3"
+        },
+        {
+          "action_type": "post_interaction_net",
+          "value": "4"
+        },
+        {
+          "action_type": "onsite_conversion.post_net_like",
+          "value": "2"
+        },
+        {
+          "action_type": "onsite_conversion.messaging_conversation_started_7d",
+          "value": "10"
+        },
+        {
+          "action_type": "post_reaction",
+          "value": "3"
+        }
+      ],
+      "date_start": "2026-04-18",
+      "date_stop": "2026-05-17"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "MAZDZD",
+      "after": "MAZDZD"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "id": "26792698290379806",
+      "name": "Hyundai Elantra 2023 Sedán — 12,000km",
+      "description": "Sedán nuevo. Ideal primer auto. Bajo consumo. Pre-aprobación financiamiento 24h.",
+      "price": "9 800 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://images.unsplash.com/photo-1542362567-b07e54358753?w=800",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%20me%20interesa%20Hyundai%20Elantra%202023%20Sedán%20—%2012,000km",
+      "brand": "Hyundai",
+      "retailer_id": "AUTO-003"
+    },
+    {
+      "id": "26734038542890935",
+      "name": "Honda CR-V 2021 SUV Familiar — 38,000km",
+      "description": "SUV en excelente estado. Familiar. Garantía 6 meses. Financiamiento disponible.",
+      "price": "14 500 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%20me%20interesa%20Honda%20CR-V%202021%20SUV%20Familiar%20—%2038,000km",
+      "brand": "Honda",
+      "retailer_id": "AUTO-002"
+    },
+    {
+      "id": "26290315324004553",
+      "name": "Toyota Hilux 2022 4x4 Diesel — 45,000km",
+      "description": "Pickup confiable, único dueño. Inspección certificada. Trámites listos. Garantía 6 meses.",
+      "price": "18 500 000 ₡",
+      "currency": "CRC",
+      "availability": "in stock",
+      "image_url": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800",
+      "url": "https://api.whatsapp.com/send?phone=50663790438&text=Hola%20me%20interesa%20Toyota%20Hilux%202022%204x4%20Diesel%20—%2045,000km",
+      "brand": "Toyota",
+      "retailer_id": "AUTO-001"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUzFLZAUtBMEtZAN0FHUnhzSzhtVGctY0REUldhSUVvc1BOVE9rak9kMjBzaldPMnRMSERfWS0tZAzdqV2RGRmREeExIUngzdlRCazNWeVJJeFgyaGVkaGtB",
+      "after": "QVFIU2VIZA3o4OEdUNmJFb2JTbUxRZA0FzU1hXdUkxZAzlZANEhTTzZAxXzRCUXRsUEpXekE0TE1HX3VlekhKVWFqYi1oNDNMeGdvWWZAsYm5sWjFYbzhocmJtM2VR"
+    },
+    "next": "https://graph.facebook.com/v25.0/955793357293894/products?fields=id,name,description,price,currency,availability,image_url,url,brand,retailer_id&limit=100&access_token=EAFt4sGcAOb4BRQSRKNuTrLCZAJrOJzLPYxJZCZCmQ4ZAjdnnmpxaTI9lTgdtIr6kvSiVfJ7ZClLE4En3NroKlZBuJkZAlbCZBprFQeZAgp5IPLF69RZBuNgTRslVDLYNaE38WKpEa22t5oQv1tV8xeu9UEQ1ZBZAoeiIZApmqZAK4ngenNZAVFrlT4Bgjk7gwlv6QL5AhrExHCotiAZD&after=QVFIU2VIZA3o4OEdUNmJFb2JTbUxRZA0FzU1hXdUkxZAzlZANEhTTzZAxXzRCUXRsUEpXekE0TE1HX3VlekhKVWFqYi1oNDNMeGdvWWZAsYm5sWjFYbzhocmJtM2VR",
+    "previous": "https://graph.facebook.com/v25.0/955793357293894/products?fields=id,name,description,price,currency,availability,image_url,url,brand,retailer_id&limit=100&access_token=EAFt4sGcAOb4BRQSRKNuTrLCZAJrOJzLPYxJZCZCmQ4ZAjdnnmpxaTI9lTgdtIr6kvSiVfJ7ZClLE4En3NroKlZBuJkZAlbCZBprFQeZAgp5IPLF69RZBuNgTRslVDLYNaE38WKpEa22t5oQv1tV8xeu9UEQ1ZBZAoeiIZApmqZAK4ngenNZAVFrlT4Bgjk7gwlv6QL5AhrExHCotiAZD&before=QVFIUzFLZAUtBMEtZAN0FHUnhzSzhtVGctY0REUldhSUVvc1BOVE9rak9kMjBzaldPMnRMSERfWS0tZAzdqV2RGRmREeExIUngzdlRCazNWeVJJeFgyaGVkaGtB"
+  }
+}

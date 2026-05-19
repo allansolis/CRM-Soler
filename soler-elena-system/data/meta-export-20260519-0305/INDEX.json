@@ -1,0 +1,158 @@
+{
+  "export_timestamp": "20260519-0305",
+  "total_endpoints": 30,
+  "success": 26,
+  "errors": 4,
+  "endpoints": [
+    {
+      "name": "00-me",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "01-me-accounts",
+      "status": "OK",
+      "count": 4
+    },
+    {
+      "name": "10-page-glass",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "11-convs-glass",
+      "status": "ERROR",
+      "count": "HTTP 403"
+    },
+    {
+      "name": "12-subscribed-apps-glass",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "20-catalog-glass",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "21-products-glass",
+      "status": "OK",
+      "count": 4
+    },
+    {
+      "name": "10-page-esmeraldas",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "11-convs-esmeraldas",
+      "status": "ERROR",
+      "count": "HTTP 403"
+    },
+    {
+      "name": "12-subscribed-apps-esmeraldas",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "20-catalog-esmeraldas",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "21-products-esmeraldas",
+      "status": "OK",
+      "count": 30
+    },
+    {
+      "name": "10-page-autos",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "11-convs-autos",
+      "status": "ERROR",
+      "count": "HTTP 403"
+    },
+    {
+      "name": "12-subscribed-apps-autos",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "20-catalog-autos",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "21-products-autos",
+      "status": "OK",
+      "count": 3
+    },
+    {
+      "name": "10-page-inversiones",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "11-convs-inversiones",
+      "status": "ERROR",
+      "count": "HTTP 403"
+    },
+    {
+      "name": "12-subscribed-apps-inversiones",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "30-adaccount-glass",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "30-adaccount-esmeraldas",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "30-adaccount-autos",
+      "status": "OK",
+      "count": 0
+    },
+    {
+      "name": "40-campaigns-glass",
+      "status": "OK",
+      "count": 4
+    },
+    {
+      "name": "41-insights-glass",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "40-campaigns-esmeraldas",
+      "status": "OK",
+      "count": 21
+    },
+    {
+      "name": "41-insights-esmeraldas",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "40-campaigns-autos",
+      "status": "OK",
+      "count": 2
+    },
+    {
+      "name": "41-insights-autos",
+      "status": "OK",
+      "count": 1
+    },
+    {
+      "name": "50-business-managers",
+      "status": "OK",
+      "count": 3
+    }
+  ]
+}

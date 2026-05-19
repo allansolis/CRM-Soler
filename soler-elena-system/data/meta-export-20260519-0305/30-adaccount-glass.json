@@ -1,0 +1,15 @@
+{
+  "name": "CP Glass Soler",
+  "account_status": 3,
+  "balance": "1225",
+  "currency": "USD",
+  "amount_spent": "7400",
+  "spend_cap": "0",
+  "age": 30.036701388889,
+  "disable_reason": 0,
+  "business": {
+    "id": "1106361001133983",
+    "name": "Inversiones Soler"
+  },
+  "id": "act_1101364862188478"
+}

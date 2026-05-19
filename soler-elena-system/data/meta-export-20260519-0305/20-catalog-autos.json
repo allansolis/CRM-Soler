@@ -1,0 +1,31 @@
+{
+  "name": "Autos Soler — Vehículos en Venta (Commerce)",
+  "product_count": 3,
+  "vertical": "commerce",
+  "product_sets": {
+    "data": [
+      {
+        "name": "All Products",
+        "product_count": 3,
+        "id": "1308971017846481"
+      },
+      {
+        "name": "Últimos 3 Autos Publicados",
+        "filter": "{\"retailer_id\":{\"is_any\":[\"AUTO-001\",\"AUTO-002\",\"AUTO-003\"]}}",
+        "product_count": 3,
+        "id": "2026778511210048"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIU1VzOGgxeHU5eTA2dGpwSHUtLUhXZAkxqaS1xMnJEVzZAXRGNteEttSThOcWFpWmZAUNWdmdHV3bWVPMUZACSWR3MEgxWjdjR285UG5FM3FSN2RrN2IwbC13",
+        "after": "QVFIU2J6WV9XVHo2aktjR0YtNFVUc25WNDJKWnI4ZADFpYVB4RW1MNUg5eVl1S3JHQko5alAxTElaSVhpVkYxRTJLQlpnTHlsYVRWMWVSejNpM2RsakM4OHF3"
+      }
+    }
+  },
+  "business": {
+    "id": "1106361001133983",
+    "name": "Inversiones Soler"
+  },
+  "id": "955793357293894"
+}

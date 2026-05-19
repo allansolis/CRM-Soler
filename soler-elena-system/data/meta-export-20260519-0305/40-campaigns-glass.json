@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "120247218919620130",
+      "name": "Retargeting Videos Iniciales 2030 Clics en Enlace 11-MAY-2026",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_TRAFFIC",
+      "daily_budget": "300",
+      "start_time": "2026-05-11T23:37:40-0600",
+      "stop_time": "2026-06-08T00:00:00-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "ACTIVE",
+      "effective_status": "ACTIVE"
+    },
+    {
+      "id": "120246154256950130",
+      "name": "Glass Soler - Mensajes WhatsApp - Robo Viral 2026-04-22",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "start_time": "2026-04-22T17:27:07-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "ACTIVE",
+      "effective_status": "ACTIVE"
+    },
+    {
+      "id": "120245957532150130",
+      "name": "Campaña Aumento de Seguidores Inicial 4-18-2026",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "start_time": "2026-04-18T20:52:25-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "ACTIVE",
+      "effective_status": "ACTIVE"
+    },
+    {
+      "id": "120245957069720130",
+      "name": "Campaña de Apertura 4-18-2026 TF Publico Similares Gam",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_ENGAGEMENT",
+      "daily_budget": "300",
+      "start_time": "2026-04-18T20:13:18-0600",
+      "stop_time": "2026-05-05T00:00:00-0600",
+      "buying_type": "AUCTION",
+      "special_ad_categories": [],
+      "configured_status": "ACTIVE",
+      "effective_status": "ACTIVE"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIU05fQlFIbEpyQm5fS1lLdlQ5OUZAuSHdUZA05MZAWpwLVlBVmQ5WnZAqczJRU25MYVBTTERJZAjN2bUdycS1neExmRVYtSzVBd2VWRVNwUm10WXV0X3RDUVp3",
+      "after": "QVFIU2NfWkZACUVJCc254TFk2aE9jbDJFM1pzZADZAFRmg0Ulh6aGZAqRkllNnZAIRHM3bVd2N3ZA2WDBSZA3I4TVdFR1JpN2tMQ0ZAUdWpCTmFmcF8yelBlUmtad0R3"
+    }
+  }
+}

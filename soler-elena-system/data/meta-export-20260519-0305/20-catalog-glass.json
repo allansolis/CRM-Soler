@@ -1,0 +1,43 @@
+{
+  "name": "Glass Soler — Paquetes Polarizado Seguridad",
+  "product_count": 4,
+  "vertical": "commerce",
+  "product_sets": {
+    "data": [
+      {
+        "name": "All Products",
+        "product_count": 4,
+        "id": "1697701438102165"
+      },
+      {
+        "name": "Glass — Todos los paquetes",
+        "filter": "{\"retailer_id\":{\"is_any\":[\"GLASS-BASICA\",\"GLASS-FULL\",\"GLASS-PREMIUM\",\"GLASS-MAXIMA\"]}}",
+        "product_count": 4,
+        "id": "1303614245207196"
+      },
+      {
+        "name": "Glass Paquetes Esenciales (Entry)",
+        "filter": "{\"or\":[{\"retailer_id\":{\"eq\":\"GLASS-BASICA\"}},{\"retailer_id\":{\"eq\":\"GLASS-FULL\"}}]}",
+        "product_count": 2,
+        "id": "4140736712892414"
+      },
+      {
+        "name": "Glass Paquetes Premium (Top tier)",
+        "filter": "{\"or\":[{\"retailer_id\":{\"eq\":\"GLASS-PREMIUM\"}},{\"retailer_id\":{\"eq\":\"GLASS-MAXIMA\"}}]}",
+        "product_count": 2,
+        "id": "1687488632441459"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIU3hMZAUF5OGd1V0p3d1AzaHJKS0QyWWhEVWt4YnBFM3dsVThMNGNkVDBTOFV5OGFPdVNJeHBQRVc1UDd5QWltTXNHcVVXMU9ZAZA1lfdjZANWE9PSEhpc0h3",
+        "after": "QVFIU1RpWVpFTHhLbDFDVEQxbTlpemhrbnlSckFpSVZANcGVCV1I1cXBMSGVhbVZART1hrcHBuVkJpc2pRZA1FNdlVWUEtLMEdrNlplR2dBUlNBMG13U09LX1dn"
+      }
+    }
+  },
+  "business": {
+    "id": "1106361001133983",
+    "name": "Inversiones Soler"
+  },
+  "id": "1670886954032475"
+}
